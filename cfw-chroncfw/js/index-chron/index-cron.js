@@ -1,0 +1,1 @@
+window.open("./index.html/index.html", "_self")

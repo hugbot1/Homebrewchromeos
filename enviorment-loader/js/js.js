@@ -1,0 +1,3 @@
+function stock() {
+    window.close();
+}

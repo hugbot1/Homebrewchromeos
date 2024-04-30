@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomeBrew Launcher</title>
+    <style>
+        .apps {
+            background-color: lightblue;
+            width: 500px;
+            height: 50px;
+            border: transparent;
+            border-color: transparent;
+            border-radius: 25px;
+        }
+        .apps:hover {
+            background-color: darkblue;
+            width: 500px;
+            height: 50px;
+            border: transparent;
+            border-color: transparent;
+            border-radius: 25px;
+        }
+    </style>
+</head>
+<body>
+    <link rel="stylesheet" href="./css/main.css">
+    <h1 class="mainfont">Homebrew Laucher</h1>
+    <hr />
+    <h4>Apps</h4>
+    <hr />
+    <div class="app">
+        <button class="apps" onclick="updateblocker()">Update Blocker</button>
+        <script src="./js/launchIndex.js"></script>
+    </div>
+    <div class="app">
+        <button class="mybt" onclick="exit128()">exit</button>
+        <script src="./js/launchIndex.js"></script>
+    </div>
+</body>
+</html>

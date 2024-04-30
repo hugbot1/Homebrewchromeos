@@ -1,0 +1,1 @@
+window.open("../html/html.html", "_self")

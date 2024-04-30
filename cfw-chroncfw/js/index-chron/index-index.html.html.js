@@ -1,0 +1,1 @@
+window.open("../assets/setup/html/patchenviorment.html", "_self")
